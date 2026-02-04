@@ -3,50 +3,38 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>My Website</title>
-    <link rel="stylesheet" href="styles.css" />
+    <title>About me</title>
+    <link rel="stylesheet" href="/assets/styles.css" />
   </head>
   <body>
-    <header class="container">
-      <h1>My Website</h1>
-      <nav>
-        <a href="#about">About</a>
-        <a href="#work">Work</a>
-        <a href="#contact">Contact</a>
-      </nav>
-    </header>
+    <div class="container">
+      <header>
+        <strong>Jan Novak</strong>
+        <nav>
+          <a href="/about/">About me</a>
+          <a href="/projects/">Projects</a>
+        </nav>
+      </header>
 
-    <main class="container">
-      <section class="hero">
-        <h2>Hi, I’m Jan 👋</h2>
-        <p>This is my first website built from scratch.</p>
-        <button id="cta">Say hi</button>
-      </section>
+      <main>
+        <h1>About me</h1>
+        <p>Add a short bio here. Mention what you build, what you’re into, and what you’re currently working on.</p>
 
-      <section id="about">
-        <h3>About</h3>
-        <p>Write a couple sentences about yourself or your project.</p>
-      </section>
+        <div class="card">
+          <h2>Highlights</h2>
+          <ul>
+            <li>Interest / skill 1</li>
+            <li>Interest / skill 2</li>
+            <li>Interest / skill 3</li>
+          </ul>
+        </div>
+      </main>
 
-      <section id="work">
-        <h3>Work</h3>
-        <ul>
-          <li>Project 1</li>
-          <li>Project 2</li>
-          <li>Project 3</li>
-        </ul>
-      </section>
+      <footer>
+        <span class="small">© <span data-year></span> Jan Novak</span>
+      </footer>
+    </div>
 
-      <section id="contact">
-        <h3>Contact</h3>
-        <p>Email: you@example.com</p>
-      </section>
-    </main>
-
-    <footer class="container">
-      <small>© <span id="year"></span> My Website</small>
-    </footer>
-
-    <script src="script.js"></script>
+    <script src="/assets/script.js"></script>
   </body>
 </html>
