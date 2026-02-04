@@ -1,0 +1,20 @@
+* { box-sizing: border-box; }
+body {
+  margin: 0;
+  font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif;
+  line-height: 1.5;
+  color: #111;
+  background: #fff;
+}
+.container { max-width: 900px; margin: 0 auto; padding: 22px; }
+header {
+  display: flex; justify-content: space-between; align-items: center;
+  border-bottom: 1px solid #eee; padding-bottom: 12px; margin-bottom: 18px;
+}
+nav a { margin-left: 12px; text-decoration: none; color: #333; }
+nav a:hover { text-decoration: underline; }
+.card {
+  border: 1px solid #eee; border-radius: 14px; padding: 16px; margin: 12px 0;
+}
+footer { margin-top: 26px; color: #666; font-size: 14px; }
+.small { color: #666; font-size: 14px; }
