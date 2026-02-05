@@ -5,23 +5,31 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Test</title>
     <style>
-      /* This makes the embed look cleaner */
+      .sketch-container {
+        width: 100%;
+        max-width: 700px; /* The original width of your canvas */
+        margin: 20px 0;
+      }
+
       iframe {
-        width: min(700px,100%);
-        height: 850px;
-        border: 2px solid #ccc; /* Optional: adds a slight border around your sketch */
+        width: 100%;
+        /* This maintains the 700:850 ratio automatically */
+        aspect-ratio: 700 / 850; 
+        border: 2px solid #ccc;
         display: block;
-        margin-top: 20px;        
       }
     </style>
   </head>
   <body>
     <p>this works</p>
-
     <p>see my embedded code:</p>
     
-    <iframe src="https://editor.p5js.org/drakomanie1/full/NtEXn1Guy" scrolling="no"></iframe>
+    <div class="sketch-container">
+      <iframe 
+        src="https://editor.p5js.org/drakomanie1/present/NtEXn1Guy" 
+        scrolling="no">
+      </iframe>
+    </div>
     
   </body>
 </html>
-
